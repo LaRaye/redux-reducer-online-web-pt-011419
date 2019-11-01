@@ -1,4 +1,4 @@
-let state = {numberOfPresents: 0};
+let state = {};
 
 export function manageFriends(state, action){
   switch (action.type) {
