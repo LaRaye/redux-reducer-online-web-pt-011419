@@ -1,6 +1,6 @@
 let state = {friends: []};
 
-export function manageFriends(state, action1, action2){
+export function manageFriends(state, action){
   switch (action.type) {
     case 'ADD_FRIEND':
       return [...state.friends, action.friend]
